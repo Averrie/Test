@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31105" started-at="2016-03-31T18:44:04Z" finished-at="2016-03-31T18:44:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31105" started-at="2016-03-31T18:44:04Z" finished-at="2016-03-31T18:44:35Z">
+      <class name="testSuitePackage.testSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testSuitePackage.testSuite@1fbc7afb]" name="setup" is-config="true" duration-ms="2814" started-at="2016-03-31T13:44:04Z" finished-at="2016-03-31T13:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchSite()[pri:0, instance:testSuitePackage.testSuite@1fbc7afb]" name="launchSite" duration-ms="10" started-at="2016-03-31T13:44:07Z" description="Launches the wolframcloud website" finished-at="2016-03-31T13:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method status="PASS" signature="wolframDevelopmentPlatform()[pri:1, instance:testSuitePackage.testSuite@1fbc7afb]" name="wolframDevelopmentPlatform" duration-ms="2030" started-at="2016-03-31T13:44:07Z" description="Click Wolfram Development Platform" finished-at="2016-03-31T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wolframDevelopmentPlatform -->
+        <test-method status="PASS" signature="createAccount()[pri:2, instance:testSuitePackage.testSuite@1fbc7afb]" name="createAccount" duration-ms="22078" started-at="2016-03-31T13:44:09Z" description="create a new Wolfram ID" finished-at="2016-03-31T13:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="dropDownMenu()[pri:3, instance:testSuitePackage.testSuite@1fbc7afb]" name="dropDownMenu" duration-ms="24" started-at="2016-03-31T13:44:31Z" description="click the down-arrow button next to new button" finished-at="2016-03-31T13:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownMenu -->
+        <test-method status="PASS" signature="createNotebook()[pri:4, instance:testSuitePackage.testSuite@1fbc7afb]" name="createNotebook" duration-ms="3268" started-at="2016-03-31T13:44:31Z" description="Create a .nb notebook" finished-at="2016-03-31T13:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotebook -->
+        <test-method status="PASS" signature="assertFileExtension()[pri:5, instance:testSuitePackage.testSuite@1fbc7afb]" name="assertFileExtension" duration-ms="110" started-at="2016-03-31T13:44:34Z" description="Assert file extension" finished-at="2016-03-31T13:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFileExtension -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:testSuitePackage.testSuite@1fbc7afb]" name="shutDown" is-config="true" duration-ms="757" started-at="2016-03-31T13:44:34Z" finished-at="2016-03-31T13:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- testSuitePackage.testSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
