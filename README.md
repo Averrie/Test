@@ -17,4 +17,4 @@ To run the Test Suite in Eclipse:
    If you are running on PC, copy and paste the chromedriver.exe to the root of your C drive, if you are running on Mac, go to http://chromedriver.storage.googleapis.com/index.html?path=2.21/ to download chromedriver for mac and put it in your desktop. Then change the second parameter of the system.setProperty to "/User/~~your-mac-username~~/Desktop/chromedriver"
 
    __Step 6__  
-   Run the testSuite.java as TestNG Test
+   Run testSuite.java as TestNG Test
