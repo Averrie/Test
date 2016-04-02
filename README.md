@@ -1,6 +1,7 @@
 # TestSuite
 To run this in Eclipse:
 Step 1 install TestNG by go to Help->Eclipse Marketplace->Find TestNG->install
+
 Step 2 create a new java project and import this repository
 Step 3 in the project explorer drag everything from TestSuite-master to the project root folder
 Step 4 add jar files by right clicking the project folder and choose property, go to the Java Build Path tab and choose Add JARs, adding all the .jar files in the project root directory
