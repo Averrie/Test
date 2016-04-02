@@ -5,7 +5,7 @@ To run the Test Suite in Eclipse:
 
   * __Step 2__ create a new java project, download this repository as zip and import it as Archive File
 
-  * __Step 3__ in the project explorer drag everything from TestSuite-master to the project root folder
+  * __Step 3__ in the project explorer drag everything from TestSuite-master to the project root folder, you may delete the TestSuite-master folder
 
   * __Step 4__ add jar files by right clicking the project folder and choose property, go to the Java Build Path tab and choose Add JARs, adding all the .jar files in the project root directory
 
