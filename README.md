@@ -14,7 +14,7 @@ To run the Test Suite in Eclipse:
    Add jar files by right clicking the project folder and choose properties, go to the Java Build Path tab and choose Add JARs, adding all the .jar files in the project root directory
 
    __Step 5__  
-   If you are running on PC, copy and paste the chromedriver.exe to the root of your C drive, if you are running on Mac, go to http://chromedriver.storage.googleapis.com/index.html?path=2.21/ and download chromedriver for mac and put it in your desktop. Then change the second parameter of the system.setProperty to "/Users/~~your-macusername~~/Desktop/chromedriver"
+   If you are running on PC, copy and paste the chromedriver.exe to the root of your C drive, if you are running on Mac, go to http://chromedriver.storage.googleapis.com/index.html?path=2.21/ and download chromedriver for mac and put it in your desktop. Then change the second parameter of system.setProperty to "/Users/~~your-mac-username~~/Desktop/chromedriver"
 
    __Step 6__  
    Run testSuite.java as TestNG Test
