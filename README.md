@@ -2,7 +2,7 @@
 To run the Test Suite in Eclipse:
 
    __Step 1__  
-   Install TestNG by go to Help->Eclipse Marketplace->Find TestNG->install
+   Install TestNG by go to Help->Eclipse Marketplace->Find TestNG->Install
 
    __Step 2__  
    Create a new java project, download this repository as zip and import it as Archive File
