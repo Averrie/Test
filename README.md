@@ -1,5 +1,5 @@
 # TestSuite
-To run this in Eclipse:
+To run the Test Suite in Eclipse:
 
 __Step 1__ install TestNG by go to Help->Eclipse Marketplace->Find TestNG->install
 
