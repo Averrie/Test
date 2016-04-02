@@ -34,6 +34,7 @@ public class testSuite {
 	
 	@Test(priority = 1, description = "Click Wolfram Development Platform")
 	public void wolframDevelopmentPlatform() {
+		System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
 		driver.get("http://www.wolframcloud.com/app/productsPage");
 		driver.findElement(By.id("wdp-tile")).click();
 		Assert.assertEquals(driver.getTitle(), "Sign In - Wolfram Development Platform");
